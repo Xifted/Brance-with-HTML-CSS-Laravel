@@ -31,7 +31,7 @@
                 <div class="form">
                     <div class="form-input">
                         <p>Gambar Url</p>
-                        <input type="url" name="gambar_url" placeholder="URL Gambar">
+                        <input type="text" name="gambar_url" placeholder="URL Gambar">
                     </div>
                     <div class="form-input">
                         <p>Nama Website</p>

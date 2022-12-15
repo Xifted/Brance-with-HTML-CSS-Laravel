@@ -31,6 +31,9 @@
             <a href="/login">LOGIN ADMIN</a>
             @endif
         </div>
+        <div class="admin-panel">
+            <a href="/portofolio">MEMBER PANEL</a>
+        </div>
         <div class="prf-add">
             <a href="portofolio/create"><i class="fa-solid fa-plus"></i>Tambah Data</a>
         </div>

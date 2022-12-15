@@ -1133,6 +1133,10 @@ body {
     width: 50%;
 }
 
+.form-img::file-selector-button{
+    display: none;
+}
+
 .form-input p {
     margin-left: 15px;
     width: 40%;
@@ -1217,7 +1221,7 @@ body {
 }
 .login{
     position: absolute;
-    top: 20%;
+    top: 18%;
     padding-inline: 10px;
     padding-block: 5px;
     width: fit-content;
@@ -1229,5 +1233,21 @@ body {
     color: #000000;
 }
 .login a:hover{
+    color: #876c0b;
+}
+.admin-panel{
+    position: absolute;
+    top: 25%;
+    padding-inline: 10px;
+    padding-block: 5px;
+    width: fit-content;
+    background-color: #D9D9D9;
+}
+.admin-panel a{
+    text-decoration: none;
+    transition: all 0.3s;
+    color: #000000;
+}
+.admin-panel a:hover{
     color: #876c0b;
 }

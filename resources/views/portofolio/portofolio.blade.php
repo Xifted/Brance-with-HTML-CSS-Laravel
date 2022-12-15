@@ -31,6 +31,12 @@
             <a href="/login">LOGIN ADMIN</a>
             @endif
         </div>
+        @if($login)
+        <div class="admin-panel">
+            <a href="/portofolio-admin">ADMIN PANEL</a>
+        </div>
+        @else
+        @endif
         @foreach ($content as $prf)
             <div class="wrap-prf">
                 <div class="prf-img">

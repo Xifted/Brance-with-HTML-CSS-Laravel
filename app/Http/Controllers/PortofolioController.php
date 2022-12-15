@@ -39,6 +39,10 @@ class PortofolioController extends Controller
         return view('portofolio.create');
     }
     public function store(request $request){
+        $request->validate([
+            'gambar_url' => 'required',
+            'gambar_url' => 'mimes:doc,docx,PDF,pdf,jpg,jpeg,png|max:2000'
+        ]);
         Portofolio::create([
             'name'=>$request->input('title'),
             'desc'=>$request->input('description'),
